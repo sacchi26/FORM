@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  color: white;
+}
+
+.task-input {
+  margin-bottom: 1rem;
+}
+
+.task-input input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.task-input button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.task-list button {
+  background: #ff4d4d;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  color: white;
+}
